@@ -1,0 +1,296 @@
+/*
+ * Copyright (c) 2017-2018 Barchampas Gerasimos <makindosx@gmail.com>
+ * QR-sms is a sms getaway with qrcode for verification (etc).
+ *
+ * QR-sms is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ *
+ * QR-sms is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License, version 3,
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ *
+ */
+
+
+
+input[type=checkbox] 
+{
+transform: scale(1.5);
+}
+
+
+#header
+{
+height:14%;
+width:99%;
+position:absolute;
+top:0;
+left:0;
+right:0;
+margin:0 auto;
+padding: 5px;
+background-color:lightgreen;
+opacity:;
+color:black;
+}
+
+
+
+
+
+
+#logout
+{
+width:200px;
+text-decoration:none;
+border-style:solid;
+border:width:;
+border-radius: 25px;
+border-color:white;
+display:inline-block;
+line-height:40px;
+color:black;
+background:white url(photos/logout.png) no-repeat 10px center;  /* orizei to megethos ths einonas kai xrwma mazi*/
+text-align:center;
+}
+
+
+
+
+#logout:hover
+{
+width:200px;
+text-decoration:none;
+border-style:solid;
+border:width:;
+border-radius: 25px;
+background-color:#009688;
+border-color:#009688;
+display:inline-block;
+line-height:40px;
+color:black;
+}
+
+
+#table
+{
+background-color:;
+color:black;
+opacity:1;
+position: absolute;
+top:15%; 
+left: 0; 
+right: 0; 
+margin-left: auto; 
+margin-right: auto; 
+height:40%;
+width:100%;
+text-align:center;
+}
+
+
+
+#sel:hover
+{
+background-color:lightgreen;
+}
+
+
+
+
+.selected{
+background-color: lightgreen; 
+}
+
+
+
+
+
+#check
+{
+height:3em;
+width:15%;
+border-style:solid;
+border-width:0.3em; 
+border-radius: 10px;
+border-color:lightgreen;
+background:lightgreen;
+color:black;
+}
+
+
+
+
+
+#check:hover
+{
+height:3em;
+width:15%;
+border-style:solid;
+border-width:0.3em; 
+border-radius: 10px;
+border-color:blue;
+background:blue;
+opacity:0.7;
+color:white;
+}
+
+
+
+
+
+#line
+{
+height: 7px;
+width:100%;
+color: #123455;
+background-color:blue;
+opacity:0.7;
+border: none;
+}
+
+
+
+#img_del:hover
+{
+height:28px;
+width:28px;
+}
+
+
+
+
+#img_del2
+{
+opacity:1;
+}
+
+
+#img_del2:hover
+{
+opacity:0.7;
+}
+
+
+
+
+#img_point
+{
+z-index: 1; 
+}
+
+
+
+
+
+input[type="image"]:focus {
+    outline: none;
+}
+
+
+input[type="image"]:hover {
+    height:55px;
+    width:55px;
+}
+
+
+
+
+/* Full-width input fields */
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {float:left;width:50%}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 100%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 5px;
+    top: 140px;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+
+
+

@@ -1,0 +1,136 @@
+/*
+ * Copyright (c) 2017-2018 Barchampas Gerasimos <makindosx@gmail.com>
+ * QR-sms is a sms getaway with qrcode for verification (etc).
+ *
+ * QR-sms is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ *
+ * QR-sms is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License, version 3,
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ *
+ */
+
+
+div.centre
+{
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+#but
+{
+height:2.5em;
+width:6em;
+}
+
+
+
+#but:hover
+{
+height:2.5em;
+width:6em;
+color:red;
+}
+
+
+
+
+#qr
+{
+border: 0;
+outline: 0;
+background: transparent;
+border-bottom: 1px solid black;
+height:20px;
+width:58px;
+text-align:center;
+}
+
+
+
+
+
+::-webkit-input-placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+
+::-moz-placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+
+::-ms-input-placeholder {
+    color: black;
+    font-weight: bold;
+} 
+
+:-o-input-placeholder {
+    color: black;
+    font-weight: bold;
+} 
+
+
+
+
+.form-btn {
+   
+    background: #87D05F  url("photos/verify.png") no-repeat scroll 200px 8px;
+    border: medium none;
+    border-radius: 100px;
+    color: black;
+    font-weight: 600;
+    height: 40px;
+    max-width: 250px;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 8px #d2d2d2;
+    -moz-box-shadow: 0 2px 8px #d2d2d2;
+    -webkit-box-shadow: 0 2px 8px #d2d2d2;
+}
+
+.form-btn::before {
+    content: "";
+    font-family: FontAwesome;
+    position: absolute;
+    right: 17px;
+    top: 9px;
+}
+
+
+
+
+.form-btn:hover
+ {
+    background: #379182 url("photos/verify.png") no-repeat scroll 200px 8px;
+    border: medium none;
+    border-radius: 100px;
+    color: black;
+    font-weight: 600;
+    height: 40px;
+    max-width: 250px;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 8px #d2d2d2;
+    -moz-box-shadow: 0 2px 8px #d2d2d2;
+    -webkit-box-shadow: 0 2px 8px #d2d2d2;
+}
